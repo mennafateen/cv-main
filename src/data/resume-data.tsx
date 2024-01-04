@@ -147,7 +147,7 @@ export const RESUME_DATA = {
       title: "Extraction of Useful Observational Features from Teacher Reports for Student Performance Prediction",
       authors: ["Menna Fateen, ", "Tsunenori Mine "],
       venue: "International Conference on Artificial Intelligence in Education 2022",
-      year: 2020,
+      year: 2022,
       month: "July",
       badges: [],
       url: "https://www.researchgate.net/publication/362275925_Extraction_of_Useful_Observational_Features_from_Teacher_Reports_for_Student_Performance_Prediction",
