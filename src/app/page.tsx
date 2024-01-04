@@ -175,7 +175,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={publication.link}>
+                      <a className="hover:underline" href={publication.url}>
                         {publication.title} - {publication.authors}
                       </a>
 

@@ -17,7 +17,6 @@ import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "@/components/icons/GitHubIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-import MennaPhoto from "../images/profile.jpg"; // Replace with the actual path
 
 import { XIcon } from "@/components/icons/XIcon";
 
@@ -25,8 +24,9 @@ export const RESUME_DATA = {
   name: "Menna Fateen",
   initials: "MF",
   location: "Fukuoka, Japan",
+  locationLink: "https://maps.app.goo.gl/68FJ2dQmSbPmtQZ1A",
   about: "Experienced Machine Learning Engineer. PhD Student at Kyushu University. Currently interested in NLP applications in Educational Technology. ",
-  avatarUrl: MennaPhoto,
+  avatarUrl: "https://mennafateen.github.io/images/memoji.jpg",
   personalWebsiteUrl: "https://mennafateen.github.io", // Replace with your personal website URL
   summary: "Hey there! I'm a PhD student at Kyushu University in Japan, currently working on the application of Natural Language Processing (NLP) techniques to educational technology. I have experience building and launching Deep Learning models in the real world. And that's what I'm passionate about: building things that make a difference. I'm all about bringing research to life and making things user-friendly. Let's chat about any exciting projects or collaborations – I'm always up for a challenge!",
 
@@ -83,6 +83,7 @@ export const RESUME_DATA = {
       start: "August 2023",
       end: "November 2023",
       description: "Worked on projects involving Python and Computer Vision.",
+      link: 'https://lycomm.co.jp/en/',
     },
     {
       company: "ISEE, Kyushu University",
@@ -92,6 +93,7 @@ export const RESUME_DATA = {
       start: "August 2020",
       end: "April 2022",
       description: "Worked on various NLP projects using Python and Pytorch for Educational Data Mining.",
+      link: 'https://www.m.ait.kyushu-u.ac.jp/',
     },
     {
       company: "UC - IT Solution Center",
@@ -101,6 +103,7 @@ export const RESUME_DATA = {
       start: "July 2017",
       end: "September 2017",
       description: "Built a cross-platform mobile application using Cordova, NodeJs, and jQuery.",
+      link: "https://cech.uc.edu/schools/it/centers/itsolutionscenter.html",
     },
   ],
 
@@ -145,6 +148,7 @@ export const RESUME_DATA = {
       authors: ["Menna Fateen, ", "Tsunenori Mine "],
       venue: "International Conference on Artificial Intelligence in Education 2022",
       year: 2020,
+      month: "July",
       badges: [],
       url: "https://www.researchgate.net/publication/362275925_Extraction_of_Useful_Observational_Features_from_Teacher_Reports_for_Student_Performance_Prediction",
       description: "",
@@ -164,6 +168,7 @@ export const RESUME_DATA = {
       authors: ["Menna Fateen, ", "Tsunenori Mine "],
       venue: "Educational Data Mining 2021",
       year: 2021,
+      month: "July",
       badges: [],
       url: "https://eric.ed.gov/?id=ED615587",
       description: "",
